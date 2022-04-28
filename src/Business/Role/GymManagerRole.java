@@ -18,7 +18,7 @@ import UI.Gym.Manager.GymManagerWorkAreaJPanel;
 
 /**
  *
- * @author luliu
+ * @author shreya
  */
 public class GymManagerRole extends Role{
 
