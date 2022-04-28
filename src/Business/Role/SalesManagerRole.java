@@ -17,7 +17,7 @@ import UI.Sales.Manager.SalesManagerWorkAreaJPanel;
 
 /**
  *
- * @author shreya
+ * @author luliu
  */
 public class SalesManagerRole extends Role{
 
