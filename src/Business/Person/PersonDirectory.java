@@ -26,5 +26,10 @@ public class PersonDirectory {
         this.personList = personList;
     }
     
-    
+    public Person createPerson(String name){
+        Person person = new Person();
+        person.setName(name);
+        personList.add(person);
+        return person;
+    }
 }
