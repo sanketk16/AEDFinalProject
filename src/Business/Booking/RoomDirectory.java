@@ -14,6 +14,13 @@ import java.util.ArrayList;
 public class RoomDirectory {
     private ArrayList<Room> classRoomList;
     
+    public RoomDirectory(){
+        this.classRoomList = new ArrayList();
+        for(int i = 0; i < 25; i++){
+            Room classRoom = new Room();
+            this.classRoomList.add(classRoom);
+        }
+    }
     
     public ArrayList<Room> getClassRoomList(){
         return classRoomList;
