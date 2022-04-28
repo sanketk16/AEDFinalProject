@@ -18,5 +18,18 @@ public class Room {
     public void setNumber(int number) {
         this.number = number;
     }
+    private int number;
+    private static int id = 100;
     
+    public Room(){
+        if(id % 100 == 4){
+            id = id + 100 - 4;
+        }
+        id++;
+        this.number = id;
+    }
+    
+    public String toString(){
+        return "" + number;
+    }
 }
