@@ -193,7 +193,19 @@ public class NewCustomerRegJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
+        if (userNameTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "User name can't be empty!");
+            return;
+        }
+        if (PassField.getPassword().equals("")) {
+            JOptionPane.showMessageDialog(null, "Password can't be empty!");
+            return;
+        }
         
+        if(!phonePattern()){
+            JOptionPane.showMessageDialog(null, "Please follow the phone number format");
+            return;
+        }
 
         username = userNameTxt.getText();
         password = CPassField.getText();
