@@ -210,7 +210,20 @@ public class NewCustomerRegJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "First name can't be empty!");
             return;
         }
-        
+        if (lastNameTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Last name can't be empty!");
+            return;
+        }
+        if (phoneTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Phone number can't be empty!");
+            return;
+        }
+          return;
+        }
+        if(!passwordPatternCorrect()){
+            JOptionPane.showMessageDialog(null, "Password must follow the format");
+            return;
+        }
         if(!PassField.getText().equals(CPassField.getText())){
             JOptionPane.showMessageDialog(null, "The password does not match");
             return;
