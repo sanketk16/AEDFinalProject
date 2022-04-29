@@ -375,6 +375,9 @@ public class OrderItemJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton addBtn;
+    private javax.swing.JButton backBtn;
+    private javax.swing.JTable cartJTable;
    
     // End of variables declaration//GEN-END:variables
 
