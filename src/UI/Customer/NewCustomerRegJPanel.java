@@ -201,7 +201,39 @@ public class NewCustomerRegJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Password can't be empty!");
             return;
         }
-        
+        if (CPassField.getPassword().equals("")) {
+            JOptionPane.showMessageDialog(null, "Confirm Password can't be empty!");
+            return;
+        }
+
+        if (firstNameTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "First name can't be empty!");
+            return;
+        }
+        if (lastNameTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Last name can't be empty!");
+            return;
+        }
+        if (phoneTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Phone number can't be empty!");
+            return;
+        }
+        if (emailTxt.getText().equals("")) {
+            JOptionPane.showMessageDialog(null, "Email can't be empty!");
+            return;
+        }
+        if(!checkEmailPattern()){
+            JOptionPane.showMessageDialog(null, "Email must follow the format");
+            return;
+        }
+        if(!passwordPatternCorrect()){
+            JOptionPane.showMessageDialog(null, "Password must follow the format");
+            return;
+        }
+        if(!PassField.getText().equals(CPassField.getText())){
+            JOptionPane.showMessageDialog(null, "The password does not match");
+            return;
+        }
         if(!phonePattern()){
             JOptionPane.showMessageDialog(null, "Please follow the phone number format");
             return;
