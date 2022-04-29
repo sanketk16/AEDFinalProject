@@ -39,7 +39,21 @@ public class ManageUserAccountJPanel extends javax.swing.JPanel {
         popData();
     }
 
+    public void popOrganizationComboBox() {
+        organizationJComboBox.removeAllItems();
+
+        for (Organization organization : enterprise.getOrganizationDirectory().getOrganizationList()) {
+            organizationJComboBox.addItem(organization);
+        }
+    }
     
+    public void populateUserComboBox(Organization organization){
+        userJComboBox.removeAllItems();
+        
+        for (Person person : organization.getPersonDirectory().getPersonList()){
+            userJComboBox.addItem(person);
+        }
+    }
     
     private void populateRoleComboBox(Organization organization){
         roleJComboBox.removeAllItems();
