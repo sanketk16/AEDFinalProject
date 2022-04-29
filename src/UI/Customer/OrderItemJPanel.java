@@ -378,7 +378,14 @@ public class OrderItemJPanel extends javax.swing.JPanel {
     private javax.swing.JButton addBtn;
     private javax.swing.JButton backBtn;
     private javax.swing.JTable cartJTable;
-   
+    private javax.swing.JButton checkoutBtn;
+    private javax.swing.JButton deleteBtn;
+    private javax.swing.JTable itemMenuJTable;
+    
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JLabel priceLabel;
+    private javax.swing.JComboBox quantityComboBox;
     // End of variables declaration//GEN-END:variables
 
     
