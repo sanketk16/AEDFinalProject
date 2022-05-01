@@ -18,7 +18,15 @@ import Business.WorkQueue.WorkQueue;
  */
 public class UserAccount {
     
-   
+    private String username;
+    private String password;
+    private Person person;
+    private Role role;
+    private WorkQueue workQueue;
+    private SalesQueue salesQueue;
+    private BookingQueue appointmentQueue;
+    //private ProgramQueue courseQueue;
+    private ProgramQueue programQueue;
     
     public UserAccount() {
         workQueue = new WorkQueue();
