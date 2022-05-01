@@ -38,7 +38,9 @@ public class ProgramRequest extends WorkRequest{
 //        this.course = course;
 //    }
 
-   
+    public Program getProgram() {
+        return program;
+    }
 
     public void setProgram(Program program) {
         this.program = program;
