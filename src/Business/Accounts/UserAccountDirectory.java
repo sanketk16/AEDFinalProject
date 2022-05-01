@@ -69,6 +69,14 @@ public class UserAccountDirectory {
 //    }
 
     
+       public UserAccount createAnalysisAcount(String username, String password, AnalystRole analysisRole) {
+         UserAccount ac = new UserAccount();
+         ac.setUsername(username);
+         ac.setPassword(password);
+         ac.setRole(analysisRole);
+         userAccountList.add(ac);
+         return ac;
+    }
        
        public UserAccount createTrainerAcount(String username, String password, TrainerRole analysisRole) {
          UserAccount ac = new UserAccount();
