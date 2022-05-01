@@ -17,5 +17,11 @@ public class ProductAvailabilityQueue {
         this.productAvailabilityList = productAvailabilityList;
     }
 
-   
+    public ArrayList<ProductAvailabilityQueue> getProductAvailabilityList() {
+        return productAvailabilityList;
+    }
+
+    public void setProductAvailabilityList(ArrayList<ProductAvailabilityQueue> productAvailabilityList) {
+        this.productAvailabilityList = productAvailabilityList;
+    } 
 }
