@@ -68,7 +68,14 @@ public class UserAccountDirectory {
 //        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }
 
-    
+    public UserAccount createUserAccount(String username, String password, Customer customer, CustomerRole customerRole) {
+         UserAccount ac = new UserAccount();
+         ac.setUsername(username);
+         ac.setPassword(password);
+         ac.setRole(customerRole);
+         userAccountList.add(ac);
+         return ac;
+    }
        public UserAccount createAnalysisAcount(String username, String password, AnalystRole analysisRole) {
          UserAccount ac = new UserAccount();
          ac.setUsername(username);
