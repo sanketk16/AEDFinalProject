@@ -38,6 +38,20 @@ public class ProgramRequest extends WorkRequest{
 //        this.course = course;
 //    }
 
+   
+
+    public void setProgram(Program program) {
+        this.program = program;
+    }
+    
+    
+
+   
+
+    public String getResult() {
+        return result;
+    }
+
     public void setResult(String result) {
         this.result = result;
     }
