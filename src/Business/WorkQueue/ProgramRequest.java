@@ -38,7 +38,10 @@ public class ProgramRequest extends WorkRequest{
 //        this.course = course;
 //    }
 
-    
+    public void setResult(String result) {
+        this.result = result;
+    }
+
     
 //    public Program getCourserequest() {
 //        return courserequest;
