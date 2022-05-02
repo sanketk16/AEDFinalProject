@@ -1,0 +1,85 @@
+Sales Item,Quantity,Customer,Sales,Status
+Energy Drink,5,cus1,sales1,Complete
+Mass Gainer,6,cus4,,Paid
+BCAA,2,cus1,sales1,Complete
+Gym Wear,4,cus1,sales1,Complete
+BCAA,1,cus2,sales2,Complete
+BCAA,4,cus3,sales2,Complete
+Protein Shake,3,cus1,sales1,Complete
+Protein Shake,1,cus6,,Paid
+Protein Shake,3,cus3,sales2,Complete
+Protein Shake,1,cus4,sales1,Complete
+Protein Shake,3,cus1,sales1,Complete
+Protein Shake,5,cus5,sales3,Complete
+Gym Shoes,4,cus1,sales1,Complete
+Gym Shoes,4,cus1,sales1,Complete
+Gym Shoes,3,cus2,sales2,Complete
+Gym Shoes,4,cus1,sales1,Complete
+Gym Shoes,2,cus3,sales2,Complete
+Gym Shoes,2,cus2,sales3,Complete
+Energy Drink,8,cus1,sales1,Complete
+Pre Workout Drink,1,cus1,sales1,Complete
+Gym Wear,5,cus1,sales1,Complete
+Mass Gainer,4,cus1,sales2,Complete
+BCAA,2,cus3,,Paid
+BCAA,1,cus2,sales1,Complete
+BCAA,3,cus3,sales2,Complete
+Stretching Mat,3,cus7,sales1,Complete
+Stretching Mat,7,cus3,sales2,Complete
+Stretching Mat,5,cus2,,Paid
+Energy Drink,5,cus3,sales2,Complete
+Energy Drink,8,cus3,sales2,Complete
+Energy Drink,2,cus2,sales3,Complete
+Energy Drink,6,cus7,sales1,Complete
+Energy Drink,2,cus1,sales1,Complete
+Mass Gainer,1,cus1,sales3,Complete
+Mass Gainer,3,cus2,,Paid
+Mass Gainer,2,cus1,sales1,Complete
+Mass Gainer,1,cus1,sales1,Complete
+Mass Gainer,7,cus3,sales3,Complete
+Gym Shoes,2,cus1,sales1,Complete
+Gym Shoes,3,cus3,,Paid
+Gym Shoes,4,cus4,sales2,Complete
+Gym Shoes,3,cus3,sales3,Complete
+Gym Shoes,5,cus1,sales1,Complete
+Veggies,1,cus3,sales2,Complete
+Veggies,4,cus5,sales2,Complete
+Veggies,12,cus6,sales1,Complete
+Veggies,4,cus1,sales1,Complete
+Mass Gainer,4,cus3,sales3,Complete
+Mass Gainer,4,cus1,sales1,Complete
+Mass Gainer,4,cus1,sales1,Complete
+Mass Gainer,4,cus1,sales1,Complete
+Mass Gainer,2,cus2,sales2,Complete
+Pre Workout Drink,2,cus1,sales1,Complete
+Pre Workout Drink,3,cus3,sales2,Complete
+Pre Workout Drink,1,cus1,sales1,Complete
+Pre Workout Drink,2,cus1,,Paid
+Pre Workout Drink,4,cus2,sales1,Complete
+Energy Drink,5,cus3,,Paid
+Energy Drink,3,cus2,sales2,Complete
+Energy Drink,10,cus5,sales1,Complete
+Energy Drink,1,cus1,sales1,Complete
+Energy Drink,4,cus3,,Paid
+Veggies,9,cus5,sales2,Complete
+Protein Bar,4,cus3,,Paid
+Protein Bar,4,cus2,sales3,Complete
+Protein Bar,8,cus3,sales3,Complete
+Protein Bar,2,cus3,sales3,Complete
+BCAA,9,cus3,sales2,Complete
+BCAA,3,cus1,sales1,Complete
+Pre Workout Drink,2,cus1,,Paid
+Pre Workout Drink,4,cus2,sales1,Complete
+Energy Drink,5,cus3,,Paid
+Energy Drink,3,cus2,sales2,Complete
+Energy Drink,10,cus5,sales1,Complete
+Energy Drink,1,cus1,sales1,Complete
+Energy Drink,4,cus3,,Paid
+Protein Shake,9,cus5,sales2,Complete
+Protein Bar,4,cus3,,Paid
+Protein Bar,4,cus2,sales3,Complete
+Protein Bar,8,cus3,sales3,Complete
+Protein Bar,2,cus3,sales3,Complete
+BCAA,9,cus3,sales2,Complete
+BCAA,3,cus1,sales1,Complete
+BCAA,3,cus1,sales1,Complete
